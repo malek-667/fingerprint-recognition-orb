@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/148b312a-9c1d-41b1-9609-ce8be7aab645)# 🔍 Fingerprint Recognition using ORB and Image Processing
+# 🔍 Fingerprint Recognition using ORB and Image Processing
 
 This project performs fingerprint recognition using the ORB (Oriented FAST and Rotated BRIEF) algorithm. It combines image preprocessing techniques such as histogram equalization and Gabor filtering with feature extraction and matching, providing a reliable method for comparing fingerprint images — even when they are rotated or altered.
 
@@ -115,6 +115,9 @@ Low-contrast or noisy images (to a limit)
 🔴 Keypoint matches are drawn
 ✅ Match Found (92.75%)
 ![image](https://github.com/user-attachments/assets/7bedb6cc-a661-49fa-9a37-e4f5a3b773f0)
+![image](https://github.com/user-attachments/assets/148b312a-9c1d-41b1-9609-ce8be7aab645)
+![Uploading image.png…]()
+![match_report_fngr2_smudged](https://github.com/user-attachments/assets/534a53dd-578f-4387-aba9-8fd585e1e77d)
 
 ---
 
