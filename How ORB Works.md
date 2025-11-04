@@ -1,8 +1,8 @@
 # HOW ORB WORKS
 
-Some text
 
-Some more text
+
+
 This program matches a user-submitted fingerprint against a database using feature-based image matching (ORB), enhanced with preprocessing techniques like histogram equalization and Gabor filtering to improve robustness to noise, rotation, and lighting variation. We are going to use python to achieve that .
 
 ORB stands for Oriented FAST and Rotated BRIEF. It's a fast, efficient algorithm that detects and describes key features in an image. It’s great for fingerprint recognition because:
