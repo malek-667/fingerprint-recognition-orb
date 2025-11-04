@@ -13,9 +13,10 @@ It’s scale invariant to some extent.
 
 It’s fast and doesn’t require a GPU.
 
-step by step :
+
 1 Keypoint Detection:
-python:    kp1, des1 = orb.detectAndCompute(img1, None) ```
+python:    kp1, des1 = orb.detectAndCompute(img1, None)
+
 
 ORB first detects keypoints (interesting points in the image, like edges, corners, ridges).
 
