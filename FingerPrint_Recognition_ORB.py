@@ -87,7 +87,7 @@ def match_fingerprint(input_image, database):
         preprocessed_db = preprocess_fingerprint(db_image)
 
         score, kp1, kp2, matches = orb_match_score(preprocessed_input, preprocessed_db)
-        print(f"🔍 {name}: ORB Match Score = {score:.2f}")
+        print(f" {name}: ORB Match Score = {score:.2f}")
 
         if score > best_score:
             best_score = score
@@ -188,7 +188,7 @@ def show_result(input_img, matched_img, matched_name, score, kp1, kp2, matches, 
 
     report_filename = f"match_report_{submitted_name.replace(' ', '_')}.jpg"
     cv2.imwrite(report_filename, canvas)
-    print(f"📁 Match report saved as: {report_filename}")
+    print(f" Match report saved as: {report_filename}")
 
 
 
