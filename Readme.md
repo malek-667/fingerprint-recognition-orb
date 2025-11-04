@@ -1,4 +1,4 @@
-# 🔍 Fingerprint Recognition using ORB and Image Processing
+#  Fingerprint Recognition using ORB and Image Processing
 
 This project performs fingerprint recognition using the ORB (Oriented FAST and Rotated BRIEF) algorithm. It combines image preprocessing techniques such as histogram equalization and Gabor filtering with feature extraction and matching, providing a reliable method for comparing fingerprint images — even when they are rotated or altered.
 
